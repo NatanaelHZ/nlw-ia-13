@@ -21,7 +21,7 @@ POST http://localhost:3333/videos/2c76c67b-6f29-4546-b658-889adf7592b2/transcrip
 Content-Type: application/json
 
 {
-  "prompt": "primeira"
+  "prompt": "clean architecture, ddd"
 }
 
 ###
@@ -33,5 +33,5 @@ Content-Type: application/json
 {
   "videoId": "2c76c67b-6f29-4546-b658-889adf7592b2",
   "temperature": 0.5,
-  "template": "Gere um resumo sucinto do video informado a seguir: ''' ble '''"
+  "prompt": "Gere um resumo da transcrição do vídeo informada a seguir: '''{transcription}'''"
 }
